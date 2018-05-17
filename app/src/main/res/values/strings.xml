@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pizzaria_Top</string>
+    <string name="tv_login" >Login</string>
+    <string name="hint_login">Informe o login</string>
+    <string name="tv_senha">Senha</string>
+    <string name="botao_login">Conectar</string>
+</resources>

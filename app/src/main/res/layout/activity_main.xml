@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.logonrm.pizzaria_top.MainActivity">
+
+        <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_login"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+        <EditText
+            android:layout_below="@+id/tvLogin"
+            android:id="@+id/etLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_login"/>
+
+        <TextView
+            android:layout_below="@+id/etLogin"
+            android:id="@+id/tvSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_senha"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <EditText
+            android:layout_below="@+id/tvSenha"
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_login"
+            android:inputType="textPassword"/>
+        
+        <Button
+            android:layout_below="@+id/etSenha"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao_login"/>
+
+    <!-- android:orientation= serve para você organizar como seu
+     conteúdo vai estar enfilerado: Na vertical ou Horizontal -->
+    <!-- android: padding= Usado para criar espaçamento entre o conteúdo-->
+    <!-- android:textAppearence= ?android:attr avisa que você esta usando um
+     atributo do SDK da Android /textAppearenceLarge um texto grande com
+     destaque.-->
+    <!-- wrap_content faz com que o espaço que o conteúdo cobre seja
+     igual o tamanho desse conteúdo-->
+    <!-- match parent seerve para que o conteúdo ocupe um espaço inteiro
+     da tela em width ou hight-->
+    <!-- layout_below serve para que o conteúdo que eu criei seja posicionado
+    embaixo de um objeto que eu inserir a ID -->
+    <!-- sp usado para letras e para ser padrão em todos os dispositivos-->
+    <!-- dp conteúdo que não é texto -->
+
+</RelativeLayout>
